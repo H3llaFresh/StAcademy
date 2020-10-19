@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task 2</string>
+    <string name="check_value">Please, check entered value:</string>
+    <string name="enter_index_of_number">Please, enter index of Leonardo number</string>
+    <string name="enter_not_null_index">Please, enter not null index of Leonardo number</string>
+    <string name="index_of_leonardo_number_hint">Index of Leonardo number</string>
+    <string name="index_of_leonardo_number">You want to calculate %1$s Leonardo number</string>
+    <string name="text_button_close">Close</string>
+    <string name="text_button_next">Next</string>
+    <string name="text_button_ok">OK</string>
+</resources>
