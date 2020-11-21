@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_a">
+
+    <fragment
+        android:id="@+id/fragment_a"
+        android:name="com.vlfl.task3.ui.FragmentA"
+        android:label="FragmentA">
+        <action
+            android:id="@+id/action_fragment_a_to_fragment_b"
+            app:destination="@id/fragment_b" />
+        <action
+            android:id="@+id/action_fragment_a_to_fragment_c"
+            app:destination="@id/fragment_c" />
+        <action
+            android:id="@+id/action_fragment_a_to_fragment_d"
+            app:destination="@id/fragment_d" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_b"
+        android:name="com.vlfl.task3.ui.FragmentB"
+        android:label="FragmentB">
+        <action
+            android:id="@+id/action_fragment_b_to_fragment_c"
+            app:destination="@id/fragment_c" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="variant"
+            app:argType="integer" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="parameter"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_c"
+        android:name="com.vlfl.task3.ui.FragmentC"
+        android:label="FragmentC" >
+        <argument
+            android:name="name"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_d"
+        android:name="com.vlfl.task3.ui.FragmentD"
+        android:label="FragmentD" />
+
+</navigation>
