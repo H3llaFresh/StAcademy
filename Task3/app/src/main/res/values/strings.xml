@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Task3</string>
+    <string name="hint_enter_name">Введите ФИО</string>
+    <string name="hint_enter_variant">Введите номер варианта</string>
+    <string name="hint_enter_description">Введите описание задания</string>
+    <string name="hint_enter_parameters">Введите параметр вычисления</string>
+    <string name="text_button_to_fragment_b">Фрагмент B</string>
+    <string name="text_button_to_fragment_c">Фрагмент C</string>
+    <string name="text_button_to_fragment_d">Фрагмент D</string>
+    <string name="text_user_name_fragment_b">ФИО: %1$s</string>
+    <string name="text_variant_fragment_b_and_c">Вариант: %1$d</string>
+    <string name="text_task_description_fragment_b">Описание задания: %1$s</string>
+    <string name="text_parameter_fragment_b">Значение параметра: %1$d</string>
+    <string name="text_date_fragment_c">Дата: %1$s</string>
+    <string name="text_result_fragment_c">Результат: %1$d</string>
+    <string name="text_button_calculate">Вычислить</string>
+    <string name="text_button_close">Закрыть</string>
+    <string name="text_error_input_field">Пожалуйста, введите данные</string>
+    <string name="text_task_description_fragment_d">Задание: Вычисление N-го числа Леонардо</string>
+    <string name="text_gradebook_number_fragment_d">Номер зачётки 81380048</string>
+    <string name="text_name_fragment_d">ФИО: Флорьянович Владислав Александрович</string>
+</resources>
