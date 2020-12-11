@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Task 6 MVVM arch</string>
+    <string name="element_text">Element text</string>
+    <string name="text_student_name">Флорьянович Владислав Александрович</string>
+    <string name="text_gradebook_number">Номер зачётки 81380048</string>
+    <string name="text_toolbar_about">About</string>
+    <string name="currency_RU_name_fragment_info">Название на русском: %1$s</string>
+    <string name="currency_BY_name_fragment_info">Назва па-беларуску: %1$s</string>
+</resources>
