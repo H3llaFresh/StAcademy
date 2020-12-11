@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_main">
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="by.vlfl.task6_mvvm.view.FragmentMain"
+        android:label="FragmentMain">
+        <action
+            android:id="@+id/action_fragment_main_to_fragment_about"
+            app:destination="@id/fragment_about" />
+        <action
+            android:id="@+id/action_fragment_main_to_fragmentRateInfo"
+            app:destination="@id/fragmentRateInfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_about"
+        android:name="by.vlfl.task6_mvvm.view.FragmentAbout"
+        android:label="FragmentAbout"/>
+    <fragment
+        android:id="@+id/fragmentRateInfo"
+        android:name="by.vlfl.task6_mvvm.view.FragmentRateInfo"
+        android:label="FragmentRateInfo" >
+        <argument android:name="currencyRussianName"
+            app:argType="string" />
+        <argument
+            android:name="currencyBelarusianName"
+            app:argType="string" />
+    </fragment>
+</navigation>
