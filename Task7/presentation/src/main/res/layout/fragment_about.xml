@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_about" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:text="@string/text_student_name"
+        android:textSize="@dimen/text_size_20"
+        app:layout_constraintBottom_toTopOf="@+id/gradebook_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/gradebook_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:text="@string/text_gradebook_number"
+        android:textSize="@dimen/text_size_20"
+        app:layout_constraintBottom_toTopOf="@+id/image_student"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_name"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Номер зачётки 81380048" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_student"
+        android:layout_width="203dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="@dimen/margin_24"
+        android:src="@drawable/image_student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gradebook_number" />
+</androidx.constraintlayout.widget.ConstraintLayout>
